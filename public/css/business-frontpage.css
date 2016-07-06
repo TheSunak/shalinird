@@ -10,7 +10,7 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 600px;
+    height: 525px;
     background: url(../img/background.png) center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -18,17 +18,35 @@ body {
     -o-background-size: cover;
 }
 
+.headline h1 {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 40px;
+    color: #FFFDE7;
+
+
+}
+
+.headline h2 {
+    font-size: 77px;
+    color: #ffffff;
+
+}
+
+
 h1.logo {
     font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700;
-    color: #4A148C;
+    color: #F9FBE7;
+    line-height: 20px;
+
 }
 
 h1.sublogo {
     font-family: 'Dosis', sans-serif;
-    font-size: 40px;
-    color: #ffffff;
+    font-size: 30px;
+    color: #F9FBE7;
     font-weight: 700;
     line-height: 1px;
 }
@@ -38,6 +56,11 @@ h1.sublogo {
 .tagline {
     text-shadow: 0 0 10px #000;
     color: #fff;
+}
+
+.three-well h2 {
+    font-size: 22px;
+    text-align: center;
 }
 
 .img-center {
