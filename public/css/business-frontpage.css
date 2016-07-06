@@ -11,7 +11,7 @@ body {
 
 .business-header {
     height: 525px;
-    background: url(../img/background.png) center center no-repeat scroll;
+    background: url(../img/background.jpg) center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

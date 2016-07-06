@@ -4,7 +4,6 @@
 module Sinatra
   module ClearHead
     def meta
-      html="<meta charset=\"utf-8\" /><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0\"/>"
       html << "<meta name=\"description\"content=\"#{settings.desc}\"  />" if settings.desc
       html << "<meta name=\"author\" content=\"#{settings.author}\" />" if settings.author
     end
