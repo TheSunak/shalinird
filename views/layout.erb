@@ -2,14 +2,17 @@
 <html>
   <head>
     <!-- Load Global and Custom CSS HERE -->
-    <%= styles %>
+        <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/business-frontpage.css" rel="stylesheet">
   </head>
 
   <!-- Body of Application -->
   <body>
     <!-- Yield to your ERB templates. -->
     <%= yield %>
-
     <!-- Load Global and Custom JavaScript HERE -->
     <%= javascripts %>
   </body>
