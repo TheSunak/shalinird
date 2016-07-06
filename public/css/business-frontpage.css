@@ -10,12 +10,27 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 400px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    height: 600px;
+    background: url(../img/background.png) center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+h1.logo {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 70px;
+    font-weight: 700;
+    color: #4A148C;
+}
+
+h1.sublogo {
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1px;
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
